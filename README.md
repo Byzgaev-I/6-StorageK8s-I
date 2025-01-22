@@ -58,10 +58,7 @@ spec:
 ```bash
 kubectl get pods
 ```
-```
-NAME                                READY   STATUS    RESTARTS   AGE
-busybox-multitool-c8d568fd9-gd6m5   2/2     Running   0          29m
-```
+
 ![image](https://github.com/Byzgaev-I/6-StorageK8s-I/blob/main/1-1.png)
 
 
@@ -69,11 +66,9 @@ busybox-multitool-c8d568fd9-gd6m5   2/2     Running   0          29m
 ```bash
 kubectl exec busybox-multitool-c8d568fd9-gd6m5 -c multitool -- tail -f /shared-data/date.log
 ```
-```
-Tue Jan 21 23:43:44 UTC 2025
-Tue Jan 21 23:43:49 UTC 2025
-Tue Jan 21 23:43:54 UTC 2025
-```
+
+![image](https://github.com/Byzgaev-I/6-StorageK8s-I/blob/main/1-2.png)
+
 
 ## Задание 2. Создание DaemonSet для работы с логами
 
