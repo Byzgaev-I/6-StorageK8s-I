@@ -8,9 +8,9 @@
 
 ## Чеклист готовности к домашнему заданию
 
-1. ✅ Установленное k8s-решение (MicroK8S)
-2. ✅ Установленный локальный kubectl
-3. ✅ Редактор YAML-файлов с подключённым git-репозиторием
+1. Установленное k8s-решение (MicroK8S)
+2. Установленный локальный kubectl
+3. Редактор YAML-файлов с подключённым git-репозиторием
 
 ## Задание 1. Создание Deployment приложения
 
@@ -62,6 +62,8 @@ kubectl get pods
 NAME                                READY   STATUS    RESTARTS   AGE
 busybox-multitool-c8d568fd9-gd6m5   2/2     Running   0          29m
 ```
+![image](https://github.com/Byzgaev-I/6-StorageK8s-I/blob/main/1-1.png)
+
 
 2. Проверка работы общего хранилища:
 ```bash
