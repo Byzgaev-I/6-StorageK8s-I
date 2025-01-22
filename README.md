@@ -114,6 +114,8 @@ kubectl get pods -l app=multitool-ds
 NAME                 READY   STATUS    RESTARTS   AGE
 multitool-ds-pjggl   1/1     Running   0          16m
 ```
+![image](https://github.com/Byzgaev-I/6-StorageK8s-I/blob/main/2-1.png)
+
 
 2. Проверка доступа к логам:
 ```bash
@@ -125,6 +127,8 @@ kubectl exec $(kubectl get pod -l app=multitool-ds -o jsonpath='{.items[0].metad
 [  OK  ] Started snap.microk8s.daemon-containerd.service
 [  OK  ] Started snap.microk8s.daemon-kubelite.service
 ```
+![image](https://github.com/Byzgaev-I/6-StorageK8s-I/blob/main/2-2.png)
+
 
 ## Выполненные задачи
 
