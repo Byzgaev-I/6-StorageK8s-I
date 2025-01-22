@@ -129,4 +129,5 @@ kubectl exec $(kubectl get pod -l app=multitool-ds -o jsonpath='{.items[0].metad
 ```
 ![image](https://github.com/Byzgaev-I/6-StorageK8s-I/blob/main/2-2.png)
 
-
+Ну тут я увидел сообщение [FAILED] Failed to start vboxadd.service - что связано с VirtualBox Guest Additions и не должно влиять на работу Kubernetes и наших подов. 
+Появилось в логах загрузки системы, потому что работаю в виртуальной машине VirtualBox.
